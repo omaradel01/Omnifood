@@ -98,24 +98,6 @@ $(function () {
     }
   );
 
-  $('.js--wp-5').waypoint(
-    function (direction) {
-      $('.js--wp-5').addClass('animate__animated animate__backInLeft');
-    },
-    {
-      offset: '50%',
-    }
-  );
-
-  $('.js--wp-6').waypoint(
-    function (direction) {
-      $('.js--wp-6').addClass('animate__animated animate__backInLeft');
-    },
-    {
-      offset: '50%',
-    }
-  );
-
   /* Mobile nav */
   $('.js--nav-icon').on('click', function () {
     var nav = $('.js--main-nav');
